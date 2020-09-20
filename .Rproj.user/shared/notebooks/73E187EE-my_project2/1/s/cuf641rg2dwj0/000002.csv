@@ -1,0 +1,7 @@
+"0","if (!file.exists(""data"")){"
+"0","  dir.create(""data"")"
+"0","  adres <- ""https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2FStormData.csv.bz2"""
+"0","  download.file(adres, destfile = ""./data/repdata%2Fdata%2FStormData.csv.bz2"", method = ""auto"")"
+"0","}"
+"0",""
+"0",""
